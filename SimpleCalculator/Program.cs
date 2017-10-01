@@ -79,12 +79,30 @@ namespace SimpleCalculator
             Console.ReadLine();
             Console.Clear();
         }
-        static void FormatNumericalData()        {            Console.WriteLine("The value 12345 in various formats:\n");            Console.WriteLine("c format: {0:c}", 12345);            Console.WriteLine("d9 format: {0:d9}", 12345);            Console.WriteLine("f3 format: {0:f3}", 12345);            Console.WriteLine("n format: {0:n}", 12345);
-            Console.WriteLine("\n");
-            // Notice that upper- or lowercasing for hex            // determines if letters are upper- or lowercase.
-            Console.WriteLine("E format: {0:E}", 12345);            Console.WriteLine("e format: {0:e}", 12345);
-            Console.WriteLine("For hex we will use 99999 to get some letters.");            Console.WriteLine("X format: {0:X}", 99999);            Console.WriteLine("x format: {0:x}", 99999);
-            Console.WriteLine("\nPress enter to continue...");            Console.ReadLine();            Console.Clear();        }
+        static void FormatNumericalData()
+        {
+            Console.WriteLine("The value 12345 in various formats:\n");
+            Console.WriteLine("c format: {0:c}", 12345);
+            Console.WriteLine("d9 format: {0:d9}", 12345);
+            Console.WriteLine("f3 format: {0:f3}", 12345);
+            Console.WriteLine("n format: {0:n}", 12345);
+
+            Console.WriteLine("\n");
+
+            // Notice that upper- or lowercasing for hex
+            // determines if letters are upper- or lowercase.
+
+            Console.WriteLine("E format: {0:E}", 12345);
+            Console.WriteLine("e format: {0:e}", 12345);
+
+            Console.WriteLine("For hex we will use 99999 to get some letters.");
+            Console.WriteLine("X format: {0:X}", 99999);
+            Console.WriteLine("x format: {0:x}", 99999);
+
+            Console.WriteLine("\nPress enter to continue...");
+            Console.ReadLine();
+            Console.Clear();
+        }
         static void StringFormat()
         {
             //string.Format() allows for substitutions as well.
@@ -93,7 +111,9 @@ namespace SimpleCalculator
             string totalLine = string.Format("Total: {0:c}", 25.39);
             Console.WriteLine(totalLine);
 
-            Console.WriteLine("\nPress enter to continue...");            Console.ReadLine();            Console.Clear();
+            Console.WriteLine("\nPress enter to continue...");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }
