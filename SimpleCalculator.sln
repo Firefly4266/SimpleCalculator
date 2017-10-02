@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{A489158F-8E90-4499-BA6F-FC131CF6547A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.Test.Unit", "SimpleCalculator.Test.Unit\SimpleCalculator.Test.Unit.csproj", "{E5CBC88E-78E0-4C95-8D4C-381C868222DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A489158F-8E90-4499-BA6F-FC131CF6547A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A489158F-8E90-4499-BA6F-FC131CF6547A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A489158F-8E90-4499-BA6F-FC131CF6547A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CBC88E-78E0-4C95-8D4C-381C868222DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CBC88E-78E0-4C95-8D4C-381C868222DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CBC88E-78E0-4C95-8D4C-381C868222DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CBC88E-78E0-4C95-8D4C-381C868222DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
